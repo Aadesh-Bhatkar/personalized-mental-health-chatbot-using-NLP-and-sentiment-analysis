@@ -1,0 +1,12 @@
+body { background:#f5f7fb; }
+.card-header { background: white; border-bottom: 1px solid #eee; }
+.bot-avatar { width:40px; height:40px; border-radius:50%; }
+.chat-body { height: 420px; overflow-y: auto; background: #ffffff; padding: 16px; }
+.msg { margin-bottom: 12px; display:block; clear:both; }
+.msg .bubble { padding: 10px 14px; border-radius: 14px; display:inline-block; max-width:78%; }
+.msg.user { text-align:right; }
+.msg.user .bubble { background:#DCF8C6; }
+.msg.bot .bubble { background:#f1f0f0; border:1px solid #e6e6e6; }
+.msg .meta { font-size: 11px; color: #888; margin-top:4px; }
+.typing { font-style: italic; color:#666; }
+input#messageInput { min-width: 0; }

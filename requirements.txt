@@ -1,0 +1,5 @@
+Flask>=2.0
+nltk
+pandas
+requests
+openai   # optional; can be left in file but only used if OPENAI_API_KEY set
